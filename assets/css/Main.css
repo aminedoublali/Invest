@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Black.woff);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../font/Roboto-Light.woff);
+}
+
+@font-face {
+    font-family: Roboto-medium;
+    src: url(../font/Roboto-Medium.woff);
+}
+
+.Main {
+    width: 100%;
+    display: flex;
+    background-color: #e3e4e6 !important;
+}
+
+.Dashbord {
+    margin-left: 10px;
+    padding-top: 1.5rem;
+
+    .Dashbord_text {
+        font-family: Roboto-light;
+        font-size: x-large;
+        color: #343a40;
+        font-weight: 600;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+}
+
+.Fxconteiner {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    width: 800px;
+
+    .Fxconteiner_box {
+        flex: 0 0 auto;
+        margin: 10px;
+        background: #fff;
+    }
+}
+
+.Cuntrybox {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    .Cuntry_Name {
+        font-family: Roboto-light;
+        font-size: x-large;
+        margin: 10px
+    }
+}
+
+.Fxconteiner_box {
+    min-width: 35%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgb(197, 197, 197);
+}
+
+.FxconteinerHover {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Roboto-light;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px 0;
+    color: #4650dd !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    .FxconteinerHover_Cuntry {
+        padding-right: 20px;
+    }
+}
+
+.Pie_Chart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .myChart {
+        background: #fff;
+        box-shadow: 0px 5px 15px rgb(197, 197, 197);
+        border-radius: 10px;
+    }
+}
+
+.Line_Chart {
+   margin: 20px 30px 20px 0px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 25px!important;
+}

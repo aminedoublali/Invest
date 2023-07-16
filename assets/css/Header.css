@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../font/Oswald-Bold.woff);
+}
+
+.Header{
+    background-color: #fff!important;
+    z-index: 4;
+    --bs-bg-opacity: 1;
+    display: block;
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    position: relative;
+    text-align: center;
+    .Header_Logo{
+        font-size: .9rem!important;
+        letter-spacing: .2em;
+        text-transform: uppercase!important;
+        color: rgba(0,0,0,.9);
+        font-weight: 800;
+        font-family: Oswald;
+    }
+}
